@@ -1,0 +1,1134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* awal header */
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.jam {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(85, 163, 231);
+    text-align: center;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px black;
+    margin-right: 400px;
+}
+
+.jam p {
+    font-size: 2vw;
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1s;
+    cursor: default;
+}
+
+.jam p:hover {
+    font-size: 1vw;
+    color: aliceblue;
+
+}
+
+.home {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(30, 114, 188);
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px black;
+}
+
+.home a {
+    font-size: 25px;
+    display: inline-block;
+    margin: auto 0px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1s;
+}
+
+.home a:hover {
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+
+.content {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(30, 114, 188);
+    margin: 5px;
+    border-radius: 10px;
+    align-items: baseline;
+    box-shadow: 0px 10px 10px black;
+
+}
+
+.content a {
+    font-size: 25px;
+    display: inline-block;
+    margin: auto 0px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1s;
+
+}
+
+.content a:hover {
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.footer {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(30, 114, 188);
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px black;
+}
+
+.footer a {
+    font-size: 25px;
+    display: inline-block;
+    margin: auto 0px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1s;
+
+}
+
+.footer a:hover {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+/* akhir header */
+/* content */
+/* content 1 */
+.main {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.main1 {
+    width: 75%;
+    order: 1;
+    padding-top: 80px;
+}
+
+.main1 .judul {
+    margin: 0px auto;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 5px 5px black;
+    border-radius: 3%;
+}
+
+.main1 .judul h1 {
+    margin: 40px 0px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    cursor: default;
+}
+
+.main1 .judul h1 span {
+    transition: 1s;
+}
+
+.main1 .judul h1 span:hover {
+    font-size: 35px;
+}
+
+.main1 .about {
+    display: flex;
+}
+
+.main1 .about p {
+    font-size: 19px;
+    text-align: justify;
+    margin: 3px;
+    cursor: default;
+    text-shadow: 0px 1px 2px white;
+}
+
+.main1 .about p a {
+    color: blue;
+}
+
+.main1 .about p a:hover {
+    color: blueviolet;
+}
+
+.main1 .about .p1 {
+    border-right: 1px solid black;
+    padding: 20px;
+}
+
+
+/* akhir content 1 */
+/* content 2 */
+
+.main2 {
+    border-top: 2px solid black;
+    width: 100%;
+    order: 3;
+    margin: 100px;
+    padding-top: 100px;
+    display: flex;
+}
+
+/* list 1 */
+
+
+.main2 .list1 {
+    margin: 0px 10%;
+}
+
+.main h2 span {
+    transition: 1s;
+}
+
+.main h2 span:hover {
+    font-size: 20px;
+}
+
+.main2 .judul2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 40px;
+    background-color: rgb(244, 240, 240);
+    border-radius: 5%;
+    box-shadow: 0px 6px 5px rgb(47, 45, 45);
+    cursor: default;
+}
+
+
+main .main2 .carrier li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin: 10px 0px;
+    margin: 20px -25%;
+    text-align: left;
+
+}
+
+.main2 .carrier li a {
+    color: blue;
+}
+
+.main2 .carrier li a:hover {
+    color: blueviolet;
+    font-size: 15px;
+}
+
+/* akhir list 1 */
+/* list 2 */
+
+.main2 .list2 {
+    margin: 0px 10%;
+
+}
+
+.main2 .judul3 {
+
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 40px;
+    background-color: rgb(244, 240, 240);
+    border-radius: 5%;
+    box-shadow: 0px 6px 5px rgb(47, 45, 45);
+    cursor: default;
+}
+
+.main2 .skill ol {
+    margin-top: 40px;
+}
+
+.main2 .skill li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin: 25px 0px;
+    text-align: left;
+
+}
+
+.main2 .skill li a {
+    color: blue;
+    font-size: 17px;
+
+}
+
+.main2 .skill li a:hover {
+    color: blueviolet;
+    font-size: 15px;
+
+}
+
+/* akhir list 2 */
+
+/* akhir content 2 */
+/* aside */
+main .aside {
+    width: 23%;
+    order: 2;
+    margin-left: 1%;
+}
+
+.aside .halaman {
+    background-color: rgb(245, 245, 245);
+    border-radius: 10%;
+    border-left: 1px solid black;
+    margin-top: 210px;
+    padding: 20px;
+    box-shadow: -5px 5px 10px black;
+}
+
+.halaman .photo {
+    background-image: url(../img/fahri.jpg);
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.halaman .intro h4 {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    cursor: default;
+}
+
+.halaman .intro p {
+    text-align: center;
+    margin-top: 5px;
+    cursor: default;
+}
+
+/* akhir aside */
+/* footer */
+.foter {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(23, 24, 25);
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+
+}
+
+.foter .akhir {
+    color: aliceblue;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.foter .akhir1 {
+    color: aliceblue;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+/* akhir footer */
+/* akhir content */
+/* ukuran tablet */
+@media(max-width:900px) {
+
+    /* navbar */
+    .header {
+        justify-content: center;
+    }
+
+    .jam {
+        width: 300px;
+        height: 40px;
+        background-color: rgb(85, 163, 231);
+        text-align: center;
+        margin: 5px;
+        border-radius: 15px;
+        box-shadow: 0px 10px 10px black;
+        margin-right: 400px;
+    }
+
+    .jam p {
+        font-size: 2vw;
+        display: inline-block;
+        margin: auto;
+        margin-top: 8px;
+        text-decoration: none;
+        color: antiquewhite;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: 1s;
+        cursor: default;
+    }
+
+    .jam p:hover {
+        font-size: 1vw;
+        color: aliceblue;
+
+    }
+
+    .home {
+        width: 100px;
+    }
+
+    .home a {
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+
+    .home a:hover {
+        font-size: 25px;
+    }
+
+
+    .content {
+        width: 100px;
+    }
+
+    .content a {
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+
+    .content a:hover {
+        font-size: 25px;
+    }
+
+    .footer {
+        width: 100px;
+
+    }
+
+    .footer a {
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+
+    .footer a:hover {
+        font-size: 25px;
+    }
+
+    /* tutup navbar */
+    /* content */
+    /* content 1 */
+    .main {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+
+    .main1 {
+        width: 75%;
+        order: 1;
+        padding-top: 10px;
+    }
+
+    .main1 .judul {
+        text-align: center;
+    }
+
+    .main1 .judul h1 {
+        margin: 40px 0px;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline;
+    }
+
+    .main1 .about {
+        display: flex;
+    }
+
+    .main1 .about p {
+        font-size: 15px;
+        text-align: justify;
+        margin: 1px;
+    }
+
+    .main1 .about .p1 {
+        border-right: 1px solid black;
+
+    }
+
+    /* tutup content 1 */
+    /* content 3 */
+
+    .main2 {
+        border-top: 2px solid black;
+        width: 100%;
+        order: 3;
+        margin: 100px;
+        padding-top: 20px;
+        display: flex;
+    }
+
+    /* list 1 */
+
+
+    .main2 .list1 {
+        margin: 0px 10%;
+    }
+
+    .main2 .judul2 {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 15px;
+        text-decoration: underline;
+        padding-top: 7px;
+        height: auto;
+    }
+
+
+
+    main .main2 .carrier li {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        margin: 10px 0px;
+        margin: 0px -25%;
+        text-align: left;
+
+    }
+
+    /* akhir list 1 */
+    /* list 2 */
+
+    .main2 .list2 {
+        margin: 0px 20px;
+
+    }
+
+    .main2 .judul3 {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 15px;
+        text-decoration: underline;
+        padding-top: 7px;
+        height: auto;
+    }
+
+
+    .main2 .skill li {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        text-align: left;
+        margin-right: 100px;
+    }
+
+    /* akhir list 2 */
+
+
+    /* tutup content 3 */
+    /* aside */
+    main .aside {
+        width: 20%;
+        order: 2;
+        margin-left: 1%;
+    }
+
+    .aside .halaman {
+        background-color: rgb(245, 245, 245);
+        border-radius: 10%;
+        border-left: 1px solid black;
+        margin-top: 120px;
+        padding: 10px;
+        box-shadow: -4px 4px 9px black;
+    }
+
+    .halaman .photo {
+        background-image: url(../img/fahri.jpg);
+        width: 100px;
+        height: 100px;
+        margin: 0px auto;
+        border-radius: 100%;
+        border: 1px solid black;
+    }
+
+    .halaman .intro h4 {
+        text-align: center;
+        margin-top: 5px;
+        text-decoration: underline;
+        cursor: default;
+    }
+
+    .halaman .intro p {
+        text-align: center;
+        margin-top: 2px;
+        cursor: default;
+    }
+
+    /* akhir aside */
+    /* footer */
+    .foter {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(23, 24, 25);
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-content: flex-end;
+
+    }
+
+    .foter .akhir {
+        color: aliceblue;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    .foter .akhir1 {
+        color: aliceblue;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    /* akhir footer */
+    /* tutup content */
+}
+
+/* akhir ukuran tablet */
+
+/* ukuran handphone */
+
+@media(max-width:680px) {
+    /* navbar */
+
+    .header {
+        width: 100%;
+        height: 200px;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home {
+        width: 200px;
+        height: 40px;
+        background-color: rgb(30, 114, 188);
+        text-align: center;
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .home a {
+        font-size: 25px;
+        display: inline-block;
+        margin: auto 0px;
+        text-decoration: none;
+        color: antiquewhite;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .home a:hover {
+        font-size: 30px;
+    }
+
+    .jam {
+        width: 200px;
+        height: 40px;
+        background-color: rgb(30, 114, 188);
+        text-align: center;
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .jam p {
+        font-size: 4vw;
+        display: inline-block;
+        margin: auto 0px;
+        text-decoration: none;
+        color: antiquewhite;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .jam p:hover {
+        font-size: 10px;
+    }
+
+
+    .content {
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        background-color: rgb(30, 114, 188);
+        margin: 5px;
+        border-radius: 10px;
+        align-items: baseline;
+    }
+
+    .content a {
+        font-size: 25px;
+        display: inline-block;
+        margin: auto 0px;
+        text-decoration: none;
+        color: antiquewhite;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .content a:hover {
+        font-size: 30px;
+    }
+
+    .footer {
+        width: 200px;
+        height: 40px;
+        background-color: rgb(30, 114, 188);
+        text-align: center;
+        margin: 5px;
+        border-radius: 10px;
+
+    }
+
+    .footer a {
+        font-size: 25px;
+        display: inline-block;
+        margin: auto 0px;
+        text-decoration: none;
+        color: antiquewhite;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .footer a:hover {
+        font-size: 30px;
+    }
+
+    /* akhir navbar */
+    /* content 1 */
+    .main {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main1 {
+        width: 100%;
+        order: 2;
+        padding-top: 10px;
+    }
+
+    .main1 .judul {
+        text-align: center;
+    }
+
+    .main1 .judul h1 {
+        margin: 40px 0px;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline;
+    }
+
+    .main1 .about {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main1 .about p {
+        font-size: 15px;
+        text-align: justify;
+        margin: 1px;
+    }
+
+    /*akhir content 1 */
+    /* content 2 */
+
+    .main2 {
+        border-top: 2px solid black;
+        width: 90%;
+        order: 3;
+        margin: 100px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 8%;
+        margin-right: 2%;
+
+    }
+
+    /* list 1 */
+
+
+    .main2 .list1 {
+        margin: 0px 10%;
+    }
+
+    .main2 .judul2 {
+        text-align: center;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+
+    main .main2 .carrier li {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        margin: 10px 0px;
+        margin: 0px -25%;
+        text-align: left;
+        padding-left: 20px;
+
+    }
+
+    /* akhir list 1 */
+    /* list 2 */
+
+    .main2 .list2 {
+        margin: 0px 20px;
+
+    }
+
+    .main2 .judul3 {
+        text-align: center;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    .main2 .skill ol {
+        margin-top: 40px;
+    }
+
+    .main2 .skill li {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        text-align: left;
+        margin-right: 100px;
+
+    }
+
+    /* akhir list 2 */
+
+    /* akhir content 2 */
+    /* aside */
+    main .aside {
+        width: 100%;
+        height: 300px;
+        order: 1;
+    }
+
+    .aside .halaman {
+        margin: 40px;
+    }
+
+    /* akhir aside */
+    /* footer */
+    .foter {
+        width: 100%;
+        height: auto;
+        background-color: rgb(23, 24, 25);
+        margin-top: 700px;
+        display: flex;
+        justify-content: center;
+        align-content: flex-end;
+        overflow: scroll;
+    }
+
+    .foter .akhir {
+        color: aliceblue;
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .foter .akhir1 {
+        color: aliceblue;
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    /* akhir footer */
+}
+
+@media(max-width:360px) {
+
+    /* content 1 */
+    .main {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+    }
+
+    .jam {
+        width: 200px;
+        height: 40px;
+        background-color: rgb(30, 114, 188);
+        text-align: center;
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .jam p {
+        font-size: 7vw;
+        display: inline-block;
+        margin: auto 0px;
+        text-decoration: none;
+        color: antiquewhite;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .jam p:hover {
+        font-size: 10px;
+    }
+
+
+    .main1 {
+        width: 100%;
+        order: 2;
+        padding-top: 10px;
+    }
+
+    .main1 .judul {
+        text-align: left;
+        width: 50px;
+    }
+
+    .main1 .judul h1 {
+        margin: 40px 0px;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .main1 .judul h1 span {
+        transition: 1s;
+    }
+
+    .main1 .judul h1 span:hover {
+        font-size: 13px;
+    }
+
+    .main1 .about {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main1 .about p {
+        font-size: 15px;
+        text-align: justify;
+        margin: 1px;
+    }
+
+    /* akhir content 1 */
+    /* content 2 */
+
+    .main2 {
+        width: 100%;
+        height: 400px;
+        order: 3;
+        margin: 5px 100px;
+        padding-top: 10px;
+        display: flex;
+    }
+
+    /* list 1 */
+
+
+    .main2 .list1 {
+        margin: 0px 10%;
+    }
+
+    .main2 .judul2 {
+        text-align: center;
+        font-size: 8px;
+        margin-bottom: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        height: auto;
+        width: auto;
+        background-color: rgb(244, 240, 240);
+        border-radius: 5%;
+        box-shadow: 0px 6px 5px rgb(47, 45, 45);
+    }
+
+
+    main .main2 .carrier li {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+        margin: 5px 0px;
+        margin: 5px -25%;
+        text-align: left;
+
+    }
+
+    .main2 .carrier li a {
+        color: blue;
+    }
+
+    .main2 .carrier li a:hover {
+        color: blueviolet;
+        font-size: 8px;
+    }
+
+    /* akhir list 1 */
+    /* list 2 */
+
+    .main2 .list2 {
+        margin: 0px 10%;
+
+    }
+
+    .main2 .judul3 {
+
+        text-align: center;
+        font-size: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        height: auto;
+        width: auto;
+        background-color: rgb(244, 240, 240);
+        border-radius: 5%;
+        box-shadow: 0px 6px 5px rgb(47, 45, 45);
+        padding: 0;
+        margin: 10px;
+    }
+
+    .main2 .skill ol {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main2 .skill li {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        margin: 2px 0px;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .main2 .skill li a {
+        color: blue;
+        font-size: 12px;
+
+    }
+
+    .main2 .skill li a:hover {
+        color: blueviolet;
+        font-size: 10px;
+
+    }
+
+    /* akhir list 2 */
+    /* aside */
+    .aside .halaman {
+        margin: 20px;
+    }
+
+    /* akhir aside */
+
+    /* footer */
+    .foter {
+        width: 100%;
+        height: auto;
+        background-color: rgb(23, 24, 25);
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+        align-items: flex-end;
+    }
+
+    .foter .akhir {
+        color: aliceblue;
+        padding-top: 15px;
+        font-size: 2vw;
+        margin-right: 10px;
+    }
+
+    .foter .akhir1 {
+        color: aliceblue;
+        padding-top: 15px;
+        font-size: 2vw;
+    }
+}
+
+/*akhir ukuran handphone*/
+/* ukuran 200px */
+@media(max-width:200px) {
+
+    /* aside */
+
+
+    .aside .halaman {
+        background-color: rgb(245, 245, 245);
+        border-radius: 10%;
+        border-left: 1px solid black;
+        margin-top: 10px;
+        padding: 20px;
+        box-shadow: -5px 5px 10px black;
+    }
+
+    .halaman .photo {
+        background-image: url(../img/fahri.jpg);
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        margin: 0px auto;
+        border-radius: 100%;
+        border: 1px solid black;
+    }
+
+    .halaman .intro h4 {
+        text-align: center;
+        margin-top: 5px;
+        text-decoration: underline;
+        cursor: default;
+        font-size: 5vw;
+    }
+
+    .halaman .intro p {
+        text-align: center;
+        margin-top: 5px;
+        cursor: default;
+        font-size: 4vw;
+    }
+
+    /* akhir aside */
+}
+
+/* akhir ukuran 200 px */
