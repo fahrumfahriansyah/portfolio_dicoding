@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* awal header */
 
 .header {
@@ -316,6 +320,21 @@ main .aside {
     margin-top: 210px;
     padding: 20px;
     box-shadow: -5px 5px 10px black;
+    cursor: pointer;
+}
+
+.buat {
+    animation: halaman 1s;
+}
+
+@keyframes halaman {
+
+    0% {
+        transform: rotate(360deg);
+        border-radius: 100%;
+    }
+
+
 }
 
 .halaman .photo {

@@ -11,7 +11,6 @@ setInterval(function () {
 // ! membuat hover pada span
 const judul = document.querySelector('.judul h1')
 const judul1Text = [...judul.textContent].map(a => { return '<span>' + a + '</span>' }).join('')
-console.log(judul1Text);
 judul.innerHTML = judul1Text
 
 const span = document.querySelectorAll('h2')
@@ -29,7 +28,6 @@ const h2 = [...span].forEach((m, b) => {
         }).reduce((a, b) => a + b)
         //? lalu saya pangiil fungsi ini
         judul2.innerHTML = htmlJudul2
-        console.log(htmlJudul2);
         //?cara ini sama seperti yang di bawah
     }
     else {
@@ -38,8 +36,19 @@ const h2 = [...span].forEach((m, b) => {
             return '<span>' + pisah + '</span>'
         }).reduce((a, b) => a + b)
         judul3.innerHTML = htmlJudul3
-        console.log(htmlJudul3);
     }
 
 })
 //!menutup hover pada span
+// ! membuat efek pada image
+const halamanAside = document.querySelector('.halaman')
+halamanAside.addEventListener('click', function () {
+    halamanAside.classList.add('buat')
+    const penentu = halamanAside.classList.contains('buat')
+    if (penentu == true) {
+        setTimeout(function () {
+            const penentu = halamanAside.classList.remove('buat')
+        }, 1000)
+    }
+})
+//!
